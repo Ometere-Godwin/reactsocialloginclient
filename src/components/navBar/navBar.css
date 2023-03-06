@@ -1,0 +1,47 @@
+.navBar{
+    height: 50px;
+    background-color: rgb(10, 10, 54);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    font-weight: 700;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+
+.logoLink{
+    color: white;
+    text-decoration: none;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem{
+    margin-right: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: white;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.login{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
